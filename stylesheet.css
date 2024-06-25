@@ -1,0 +1,49 @@
+#countLabel,#ranLabel{
+    display:block;
+    text-align: center;
+    font-size: 7em;
+    font-family:Helvetica, sans-serif;
+}
+#hotLabel{
+    display:block;
+    text-align: center;
+    font-size: 4em;
+    font-family:Helvetica, sans-serif;  
+}
+#counterContainer,p,#ranContainer,#hotContainer{
+    text-align: center;
+}
+.button{
+    padding: 0.5em 1em;
+    border: 0.1em solid black;
+    border-radius: 25px;
+    background-color: #a2bbd4;
+    color: black;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.5ms;
+}
+
+.button:hover{
+    background-color: #4E4F50;
+    color: aliceblue;
+}
+body{
+    background-color: #fffcef;
+    padding:em;
+   
+}
+#counterContainer,#ranContainer,#hotContainer{
+    background-color: #336699;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding-bottom: 1em;
+    margin:3em;
+}
+input{
+    height: 2em;
+    width: 15em;
+    border: 0.15em solid black;
+    margin: 1em;
+    background-color: #a2bbd4;
+}
